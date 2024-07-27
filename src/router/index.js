@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import home from '@/home'
-import tableDragScroll from '@/components/tableDragScroll'
-import overflowAndabsolute from '@/components/overflowAndabsolute'
+import home from '@/pages/home'
+import tableDragScroll from '@/pages/tableDragScroll'
+import overflowAndabsolute from '@/pages/overflowAndabsolute'
 
 Vue.use(Router)
 
