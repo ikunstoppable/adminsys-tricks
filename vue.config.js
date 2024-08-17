@@ -15,6 +15,6 @@ module.exports = defineConfig({
     extract: {
       filename: `css/[name].${date}.css`,
       chunkFilename: `css/[name].${date}.css`
-    }
+    },
   }
 })

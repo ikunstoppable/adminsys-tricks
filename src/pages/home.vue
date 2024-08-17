@@ -2,6 +2,7 @@
   <div>
     <div @click="hopToDemo('/tableDragScroll')"><a href="#">表格拖拽滚动</a></div>
     <div @click="hopToDemo('/overflowAndabsolute')"><a href="#">绝对定位和overflow</a></div>
+    <div @click="hopToDemo('/caculatePercise')"><a href="#">精确四则运算</a></div>
   </div>
 </template>
 
