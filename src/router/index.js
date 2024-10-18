@@ -4,6 +4,7 @@ import home from '@/pages/home'
 import tableDragScroll from '@/pages/tableDragScroll'
 import overflowAndabsolute from '@/pages/overflowAndabsolute'
 import caculatePercise from '@/pages/caculatePercise'
+import clinetIp from '@/pages/clinetIp'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/caculatePercise',
       name: 'caculatePercise',
       component: caculatePercise
+    },
+    {
+      path: '/clinetIp',
+      name: 'clinetIp',
+      component: clinetIp
     }
   ]
 })
