@@ -13,6 +13,7 @@
     "moment": "^2.30.1",
     "vue": "^2.6.14",
     "vue-cli-service": "^5.0.10",
+    "vue-grid-layout": "^2.4.0",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
