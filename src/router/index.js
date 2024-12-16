@@ -5,7 +5,7 @@ import tableDragScroll from '@/pages/tableDragScroll'
 import overflowAndabsolute from '@/pages/overflowAndabsolute'
 import caculatePercise from '@/pages/caculatePercise'
 import clinetIp from '@/pages/clinetIp'
-
+import gridLayout from '@/pages/gridLayout/gridLayout.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +34,11 @@ export default new Router({
       path: '/clinetIp',
       name: 'clinetIp',
       component: clinetIp
-    }
+    },
+    {
+      path: '/gridLayout',
+      name: 'gridLayout',
+      component: gridLayout
+    },
   ]
 })
