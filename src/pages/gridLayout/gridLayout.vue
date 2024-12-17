@@ -20,7 +20,7 @@
         :i="item.i"
         :key="item.i"
       >
-        {{ item.i }}
+        {{ item.content }}
       </grid-item>
     </grid-layout>
   </div>
@@ -36,10 +36,26 @@ export default {
   data() {
     return {
       layout: [
-        { x: 0, y: 0, w: 2, h: 2, i: "0" },
-        { x: 2, y: 0, w: 2, h: 2, i: "1" },
-        { x: 4, y: 0, w: 2, h: 2, i: "2" },
-        { x: 2, y: 1, w: 3, h: 4, i: "10" },
+        // 第一行
+        { x: 0, y: 0, w: 3, h: 6, i: "0", content: '小' },
+        { x: 3, y: 0, w: 3, h: 6, i: "1", content: '' },
+        { x: 6, y: 0, w: 3, h: 6, i: "2", content: '' },
+        { x: 9, y: 0, w: 3, h: 6, i: "3", content: '' },
+        // 第二行
+        { x: 0, y: 6, w: 6, h: 6, i: "4", content: '中（横板）' },
+        { x: 6, y: 6, w: 3, h: 6, i: "5", content: '' },
+        { x: 9, y: 0, w: 3, h: 12, i: "6", content: '中（竖版）' },
+        // 第三行
+        { x: 0, y: 12, w: 9, h: 6, i: "7", content: '中（加长横板）' },
+        // 第四行
+        { x: 0, y: 18, w: 6, h: 12, i: "8", content: '大卡片' },
+        { x: 6, y: 18, w: 6, h: 12, i: "9", content: '大卡片' },
+        // 第五行
+        { x: 0, y: 30, w: 9, h: 12, i: "10", content: '超大卡片' },
+        { x: 9, y: 30, w: 3, h: 6, i: "11", content: '' },
+        { x: 9, y: 36, w: 3, h: 6, i: "12", content: '' },
+        // 第六行
+        { x: 0, y: 42, w: 12, h: 6, i: "13", content: '通栏' },
       ],
     };
   },
