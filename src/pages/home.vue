@@ -5,6 +5,7 @@
     <div @click="hopToDemo('/caculatePercise')"><a href="#">精确四则运算</a></div>
     <div @click="hopToDemo('/clinetIp')"><a href="#">IP</a></div>
     <div @click="hopToDemo('/gridLayout')"><a href="#">gridLayout</a></div>
+    <div @click="hopToDemo('/showClientIP')"><a href="#">获取客户端信息</a></div>
   </div>
 </template>
 

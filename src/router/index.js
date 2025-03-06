@@ -6,12 +6,14 @@ import overflowAndabsolute from '@/pages/overflowAndabsolute'
 import caculatePercise from '@/pages/caculatePercise'
 import clinetIp from '@/pages/clinetIp'
 import gridLayout from '@/pages/gridLayout/gridLayout.vue'
+import showClientIP from '@/pages/clientInfo/showClientIP.vue'
+import markdownParse from '@/pages/markdownParse/markdownParse.vue'
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/',
+      path: '/home',
       name: 'home',
       component: home
     },
@@ -39,6 +41,16 @@ export default new Router({
       path: '/gridLayout',
       name: 'gridLayout',
       component: gridLayout
+    },
+    {
+      path: '/showClientIP',
+      name: 'showClientIP',
+      component: showClientIP
+    },
+    {
+      path: '/',
+      name: 'markdownParse',
+      component: markdownParse
     },
   ]
 })

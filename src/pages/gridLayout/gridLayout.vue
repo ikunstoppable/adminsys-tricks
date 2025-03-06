@@ -1,15 +1,16 @@
 <template>
-  <div>
+  <div style="zoom: 0.88281">
     <grid-layout
       :layout.sync="layout"
       :col-num="12"
+      :max-rows="1"
       :row-height="30"
       :is-draggable="true"
       :is-resizable="false"
       :is-mirrored="false"
       :vertical-compact="true"
       :margin="[10, 10]"
-      :use-css-transforms="true"
+      :use-css-transforms="false"
     >
       <grid-item
         v-for="(item, index) in layout"

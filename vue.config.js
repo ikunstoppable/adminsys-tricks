@@ -1,6 +1,7 @@
 const moment = require('moment')
 const date = new moment().format('YYYYMMDDHHmmss')
 const { defineConfig } = require('@vue/cli-service')
+
 module.exports = defineConfig({
   transpileDependencies: true,
   // js 打包文件加上时间
