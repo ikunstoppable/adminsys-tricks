@@ -8,6 +8,9 @@ import clinetIp from '@/pages/clinetIp'
 import gridLayout from '@/pages/gridLayout/gridLayout.vue'
 import showClientIP from '@/pages/clientInfo/showClientIP.vue'
 import markdownParse from '@/pages/markdownParse/markdownParse.vue'
+import selectTree from '@/pages/selectTree/selectTree.vue'
+import practiceSkill from '@/pages/practiceSkill/index.vue'
+ 
 Vue.use(Router)
 
 export default new Router({
@@ -48,9 +51,19 @@ export default new Router({
       component: showClientIP
     },
     {
-      path: '/',
+      path: '/markdownParse',
       name: 'markdownParse',
       component: markdownParse
+    },
+    {
+      path:'/selectTree',
+      name: 'selectTree',
+      component: selectTree
+    },
+    {
+      path:'/practiceSkill',
+      name: 'practiceSkill',
+      component: practiceSkill
     },
   ]
 })
