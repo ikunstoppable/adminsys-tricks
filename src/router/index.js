@@ -10,6 +10,7 @@ import showClientIP from '@/pages/clientInfo/showClientIP.vue'
 import markdownParse from '@/pages/markdownParse/markdownParse.vue'
 import selectTree from '@/pages/selectTree/selectTree.vue'
 import practiceSkill from '@/pages/practiceSkill/index.vue'
+import uuidv4try from '@/pages/uuidv4try/index.vue'
  
 Vue.use(Router)
 
@@ -64,6 +65,11 @@ export default new Router({
       path:'/practiceSkill',
       name: 'practiceSkill',
       component: practiceSkill
+    },
+    {
+      path:'/uuidv4try',
+      name: 'uuidv4try',
+      component: uuidv4try
     },
   ]
 })

@@ -8,6 +8,7 @@
     <div @click="hopToDemo('/showClientIP')"><a href="#">获取客户端信息</a></div>
     <div @click="hopToDemo('/selectTree')"><a href="#">选择器下拉树形</a></div>
     <div @click="hopToDemo('/practiceSkill')"><a href="#">测试API</a></div>
+    <div @click="hopToDemo('/uuidv4try')"><a href="#">uuidv4</a></div>
   </div>
 </template>
 
