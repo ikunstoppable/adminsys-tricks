@@ -10,6 +10,7 @@ import showClientIP from '@/pages/clientInfo/showClientIP.vue'
 import markdownParse from '@/pages/markdownParse/markdownParse.vue'
 import selectTree from '@/pages/selectTree/selectTree.vue'
 import practiceSkill from '@/pages/practiceSkill/index.vue'
+import tablelayout from'@/pages/tablelayout/tablelayout.vue'
  
 Vue.use(Router)
 
@@ -65,5 +66,11 @@ export default new Router({
       name: 'practiceSkill',
       component: practiceSkill
     },
+    {
+      path:'/tablelayout',
+      name: 'tablelayout',
+      component: tablelayout
+    },
+    
   ]
 })
